@@ -1,0 +1,23 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "a tool for easy automatic mailing",
+  "main": "src/index.js",
+  "scripts": {
+    "send-mails": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Loic Duvail",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "nodemailer": "^6.10.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/nodemailer": "^6.4.17",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  }
+}

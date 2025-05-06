@@ -1,0 +1,15 @@
+{
+  "subject": "Recherche d'alternance",
+  "text_path": "assets/mail.txt",
+  "html_path": "assets/mail.html",
+  "attachments_path": "assets/attachments",
+  "nodemailer_user": "",
+  "nodemailer_pass": "",
+  "contacts": [
+    {
+      "email": "",
+      "name": ""
+    }
+  ],
+  "diagnostic_directory_path": "./"
+}
