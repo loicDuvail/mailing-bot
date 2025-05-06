@@ -45,5 +45,5 @@ Un objet `data` est exposé qui représente le contact ciblé.
 </section>
 ```
 
-> [!WARN]
+>[!WARNING]
 > Be sure all the data you want to inject are defined for every contact to avoid seeing `undefined` in the custom mails
